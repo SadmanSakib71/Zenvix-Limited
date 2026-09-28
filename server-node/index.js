@@ -3,6 +3,12 @@ import express from "express";
 const app = express();
 app.use(express.json());
 
+const express = require("express");
+const cors = require("cors");
+
+// Allow requests from your frontend port
+app.use(cors());
+
 app.get("/api/health", (req, res) => {
   res.json({ ok: true });
 });
