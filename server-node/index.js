@@ -6,7 +6,7 @@ app.use(express.json());
 const tasks = [
   {
     id: 1,
-    title: "Write project proposal",
+    title: "Write project proposal here",
     completed: false,
     createdAt: "2026-09-28T10:00:00.000Z",
   },
